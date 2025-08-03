@@ -669,7 +669,7 @@ h2 {
 }
 
 .modal-form-box {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-form-label {
   display: block;
@@ -704,7 +704,6 @@ h2 {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
@@ -766,6 +765,7 @@ h2 {
 .checkbox:checked + .modal-form-agreement-field .modal-form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 
 .checkbox:checked

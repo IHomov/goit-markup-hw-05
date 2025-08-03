@@ -519,8 +519,8 @@
               <input
                 class="subscribe-input"
                 type="email"
-                name="email_footer"
-                id="email_footer"
+                name="email-footer"
+                id="email-footer"
                 required
                 minlength="2"
                 placeholder="E-mail"
@@ -557,13 +557,13 @@
 
         <form class="modal-form" name="review_form">
           <div class="modal-form-box">
-            <label class="modal-form-label" for="user_name">Name</label>
+            <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-form-field">
               <input
                 class="modal-form-input"
                 type="text"
-                name="user_name"
-                id="user_name"
+                name="user-name"
+                id="user-name"
                 required
                 minlength="2"
                 placeholder=" "
@@ -604,11 +604,11 @@
           </div>
 
           <div class="modal-form-box">
-            <label class="modal-form-label" for="user_message">Comment</label>
+            <label class="modal-form-label" for="user-comment">Comment</label>
             <textarea
               class="modal-form-message"
-              name="user_message"
-              id="user_message"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
               minlength="20"
               maxlength="2000"
@@ -619,12 +619,14 @@
             <input
               class="checkbox visually-hidden"
               type="checkbox"
-              name="user_agreement"
-              id="user_agreement"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              for="user-privacy"
             />
             <label class="modal-form-agreement-field" for="user_agreement">
               <span class="modal-form-agreement-checkbox">
-                <svg class="modal-form-agreement-icon" width="10" height="10">
+                <svg class="modal-form-agreement-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>

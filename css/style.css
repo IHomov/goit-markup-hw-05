@@ -769,10 +769,12 @@ h2 {
 
   cursor: pointer;
 }
-.checkbox:checked + .modal-form-agreement-field .modal-form-agreement-checkbox {
+.checkbox:checked
+  + .modal-form-agreement-field
+  > .modal-form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+  fill: var(--icon-color-light);
 }
 
 .modal-form-agreement-link {

@@ -772,12 +772,6 @@ h2 {
 .checkbox:checked + .modal-form-agreement-field .modal-form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
-}
-
-.checkbox:checked
-  + .modal-form-agreement-field
-  .modal-form-agreement-checkbox
-  svg {
   fill: #f4f4fd;
 }
 
